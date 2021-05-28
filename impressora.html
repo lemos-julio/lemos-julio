@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Contador de uso</title>
+	<link rel="stylesheet" type="text/css" href="script.css">
+</head>
+	<body>
+	
+		<header>
+			<div id="titulo">
+				<h3>Contador de Uso</h3> 
+			</div>
+			<div id="logo">
+				<img src="logo3.jpg">
+			</div>
+		</header>
+			
+			<form  action="processa.php" method="POST">
+				<div id="form">	
+					<label>Nome da Impressora</label>
+					<input type="text" name="IMP_NAME">		
+
+					&nbsp;
+					<label>Setor</label>
+					<input type="text" name="SETOR">		
+					
+					&nbsp;
+					<label>Numero novo</label>
+					<input type="text" name="NEW_NUM">
+					
+					&nbsp;
+					&nbsp; 
+					<label>Numero Antigo</label>
+					<input type="text" name="OLD_NUM">
+					
+					&nbsp; 
+					<input id="botao" type="submit" name="acao" value="Enviar">
+				</div>
+			</form>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+
+
+body{
+	background-color:rgb(111,148,143,0.1);
+	margin: 0px;
+	padding: 0px;
+
+	
+}
+
+header{
+	background-color: #4F4F4F;
+	padding: 10px;
+	margin: 0px;
+	height: 125px;
+	width: 100%;
+	font-family: Helvetica;
+}
+
+p{
+	color: black;
+}
+
+#titulo{
+	
+	float: right;
+	margin: 50px;
+	padding: 10px;
+	text-align: center;
+	width: 250px;
+
+}
+
+#logo{
+	float: left;
+	background-color: #4F4F4F;
+	margin: 8px 10px 10px 10px;
+}
+
+
+
+
+#form{
+	margin: 10px;
+	background-color: #DCDCDC;
+	height: 25px;
+	margin: 1%;
+	padding:1%;
+	font-family: Helvetica;
+	
+}
+
+
+#botao{
+	background-color: white;
+	font-family: Helvetica;
+	color-font: black;
+	margin: 1px;
+	padding: 1px;
+
+}
